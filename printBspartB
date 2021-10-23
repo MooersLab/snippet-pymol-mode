@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: printBspartB
+# name: Print B factors of part B of a residue.
+# group: Print
+# key: printBspartB
+# --
+iterate resi ${1:38} and altloc ${2:B}, print resi, name, alt, b;
+$0

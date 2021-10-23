@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: printDocpy
+# name: Print document string of a function.
+# group: Help
+# key: printDocpy
+# --
+print(${1:my_func}.__doc__);
+$0

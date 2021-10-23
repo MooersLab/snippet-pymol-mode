@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: imports4PyMOLjupyter
+# name: Imports needed for most uses of pymol in Jupyter. Combination of importPyMOL and importPythonDisplay.
+# group: Jupyter
+# key: imports4PyMOLjupyter
+# --
+from pymol import cmd
+from IPython.display import Image
+from IPython.core.display import HTML
+$0

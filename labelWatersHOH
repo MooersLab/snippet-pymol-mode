@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: labelWatersHOH
+# name: Label waters with HOH and their residue number.
+# group: Labels
+# key: labelWatersHOH
+# --
+label resn HOH ,"%s%s" % (resn,resi);
+$0

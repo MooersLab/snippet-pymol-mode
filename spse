@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: spse
+# name: Save pse flle with timestamp
+# group: FileIO
+# key: spse
+# --
+python;
+import datetime;
+from pymol import cmd; 
+DT =datetime.datetime.now().strftime("yr%Ymo%mday%dhr%Hmin%M");
+s = str(DT); 
+cmd.save(stemName+s+".pse"); 
+python end;
+$0

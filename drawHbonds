@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: drawHbonds
+# name: Display H-bonds as dashes colored black.
+# group: H-bonds
+# key: drawHbonds
+# --
+hide everything, hydrogens;
+hide labels;
+# set the color of the dashed lines representing the H-bond.;
+set dash_color, ${1:black};
+set dash_gap, 0.4;
+set dash_radius, 0.08;
+$0

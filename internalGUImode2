@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: internalGUImode2
+# name: Make the background of the internal gui transparent to expand viewport.
+# group: Workshop
+# key: internalGUImode2
+# --
+internal_gui_mode=2;
+$0

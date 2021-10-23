@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: rotate
+# name: Rotate a selection about and axis by a given angle.
+# group: ChangeOrientation
+# key: rotate
+# --
+rotate ${1:x}, ${2:45}, ${3:pept};
+$0

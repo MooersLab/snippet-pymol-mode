@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: rmd
+# name: Remove all measurement objects in the interal GUI.
+# group: Jupyter
+# key: rmd
+# --
+cmd.do("delete measure*")
+cmd.do("delete m*_*")
+cmd.do("delete dist*")
+$0

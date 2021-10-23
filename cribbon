@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: cribbon
+# name: Color ribbon H red, strand yellow, loop green.
+# group: ColorScheme
+# key: cribbon
+# --
+as cartoon;
+color red, ss H;
+color yellow,ss S;
+color green, ss L+;
+$0

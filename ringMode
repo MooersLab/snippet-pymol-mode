@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: ringMode
+# name: Set the ring mode to a value between 0  and 6 in cartoons of nucleic acids.
+# group: MolecularRepresentation
+# key: ringMode
+# --
+show cartoon, ${1:rna}; set cartoon_ring_mode, ${2:3};
+$0

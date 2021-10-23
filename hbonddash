@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: hbonddash
+# name: Set up H-bond dashes.
+# group: H-bonds
+# key: hbonddash
+# --
+hide everything, hydrogens;
+hide labels;
+set dash_color, black; 
+set dash_gap, 0.4;
+set dash_radius, 0.08;
+$0

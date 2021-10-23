@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: loadPDBfile
+# name: Load a pdb file in the current directory.
+# group: FileIO
+# key: loadPDBfile
+# --
+load ${1:my}.pdb;
+$0

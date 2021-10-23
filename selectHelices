@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: selectHelices
+# name: Select atoms by alpha helices.
+# group: Selection
+# key: selectHelices
+# --
+select ${1:helices}, ss h; 
+$0

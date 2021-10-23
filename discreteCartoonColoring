@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: discreteCartoonColoring
+# name: Turn on discrete colors between secondary structure elements.
+# group: MolecularRepresentation
+# key: discreteCartoonColoring
+# --
+set cartoon_discrete_colors, on;
+$0

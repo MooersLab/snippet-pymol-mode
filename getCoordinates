@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: getCoordinates
+# name: Get coordinates.
+# group: Print
+# key: getCoordinates
+# --
+print cmd.get_atom_coords(\\"${1:/4PCO//B/G`8/OP2}\\");
+$0

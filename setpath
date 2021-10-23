@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: setpath
+# name: Set additional path for PyMOL to search on startup.
+# group: Pymolrc
+# key: setpath
+# --
+os.environ["PATH"] += os.pathsep +${1: "~/ATSAS-3.0.3-1/bin"};
+$0

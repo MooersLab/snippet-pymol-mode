@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: printBs
+# name: Print the B-factors of a residue.
+# group: Print
+# key: printBs
+# --
+remove element h; iterate resi ${1: 1:13}, print(resi, name,b);
+$0

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: printBfactors
+# name: Print the bfactors of a residue.
+# group: Programming
+# key: printBfactors
+# --
+iterate (resi ${1:101}), print(name + " %.2f" % b);
+$0

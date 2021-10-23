@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: printPath
+# name: Print the path to the currently used PyMOL binary.
+# group: FileIO
+# key: printPath
+# --
+print(pymol.__path__)
+$0

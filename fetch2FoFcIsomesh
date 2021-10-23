@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: fetch2FoFcIsomesh
+# name: Fetch 2FoFc map as an isomesh.
+# group: ElectronDensity
+# key: fetch2FoFcIsomesh
+# --
+fetch ${1:3nd4}, ${1:3nd4}_2fofc, type=2fofc, async=0;
+isomesh 2fofcmap, ${1:3nd4}_2fofc, 1, ${1:3nd4}, carve = 1.8;
+$0

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: waterTriple
+# name: Examples of a triple water pentagon. Zoom in on the selection. Edit by changing the residue number.
+# group: MolecularRepresentation
+# key: waterTriple
+# --
+fetch ${1:lw9}, async=0; 
+zoom resi ${2:313}; 
+preset.technical(selection="all", mode=1);
+$0

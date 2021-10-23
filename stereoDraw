@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: stereoDraw
+# name: Stereo draw.
+# group: Stereo
+# key: stereoDraw
+# --
+stereo walleye; 
+set ray_shadow, off; 
+#draw 3200,2000;
+draw ${1:1600,1000}; 
+png ${2:aaa}.png;
+$0

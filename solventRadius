@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: solventRadius
+# name: Set radius of ball used to make solvent accessible surface.
+# group: MolecularRepresentation
+# key: solventRadius
+# --
+set solvent_radius, ${1:1.55};
+$0

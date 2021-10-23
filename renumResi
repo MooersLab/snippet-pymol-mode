@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: renumResi
+# name: Add or substract a residue number offset.
+# group: Programming
+# key: renumResi
+# --
+alter ${1:3fa0}, resi=str(int(resi)+${2:100});sort;
+$0

@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: puttyCartoon
+# name: Create a putty cartoon. The command may be needed if the above setting does not work. This can happen if using the presets. The command below may be needed if the above setting does not work.This can happen if using the presets. The command below may be needed if the above setting does not work. This can happen if using the presets.
+# group: MolecularRepresentation
+# key: puttyCartoon
+# --
+show cartoon;
+cartoon putty;
+set cartoon_smooth_loops, 0;
+set cartoon_flat_sheets, 0;
+set cartoon_smooth_loops,0;
+## unset cartoon_smooth_loops;
+
+$0

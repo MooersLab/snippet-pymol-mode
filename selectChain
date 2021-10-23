@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: selectChain
+# name: Select a chain.
+# group: Selection
+# key: selectChain
+# --
+select ${1:rna}, ${2:chain B};
+$0

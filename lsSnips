@@ -1,0 +1,273 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: lsSnips
+# name: List all snips by tab trigger and description.
+# group: ListSnippets
+# key: lsSnips
+# --
+"""Name                                      Description                                                                                                                   ,
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------,
+AO                                        Run the AO function from the pymolshortcuts.py file to generate the photorealistic effect.
+AOBW                                      Run the AOBW function from the pymolshortcuts.py file to generate photorealistic effect in grayscale.
+AOD                                       Run the AOD function from the pymolshortcuts.py file to generate photorealistic effect with carbons colored black.
+AODBW                                     Run the AODBW function from the pymolshortcuts.py file to generate photorealistic effect with carbons colored black and all other atoms colored in grayscale.
+PE125                                     Run the PE125 function from the pymolshortcuts.py file to show the pearl effect with the inner sphere scaled by 0.125 of the van der Waals surface.
+PE25                                      Run the PE25 function from the pymolshortcuts.py file to show the pearl effect with the inner sphere scaled by 0.25 of the van der Waals surface.
+PE33                                      Run the PE33 function from the pymolshortcuts.py file to show the pearl effect with the inner sphere scaled by 0.33 of the van der Waals surface.
+PE50                                      Run the PE50 function from the pymolshortcuts.py file to show the pearl effect with the inner sphere scaled by 0.50 of the van der Waals surface.
+PE66                                      Run the PE66 function from the pymolshortcuts.py file to show the pearl effect with the inner sphere scaled by 0.66 of the van der Waals surface.
+PE75                                      Run the PE75 function from the pymolshortcuts.py file to show the pearl effect with the inner sphere scaled by 0.75 of the van der Waals surface.
+PE85                                      Run the PE85 function from the pymolshortcuts.py file to show the pearl effect with the inner sphere scaled by 0.85 of the van der Waals surface.
+addAxis                                   Adds the function draw_axis(). Used to draw a symmetry axis, a ncs axis, or scale bar to a scene.
+addAxispy                                 Adds the function draw_axis(). Could be useful for the adding a symmery axis, a ncs axis, or scale bar to a scene.
+allPairs                                  This is a two-fold nested list comprehension for any all-parwise operation on the currently loaded objects. Replace optAlginRNA with object from any other function that operations on a pair of structrures.
+antialias                                 Set antialias to on to get smoother edges.
+ao                                        Apply the ambient occlussion effect to get the photorealistic effect.
+ao                                        Apply the ambient occlussion effect to get the photorealistic effect.
+aobw                                      Ambient occlussion in grayscale.
+aod                                       Ambient occlussion with carbon atoms colored black.
+aodbw                                     Ambient occlussion in grayscale with carbon atoms colored black. Note: requires the gscale() function from pymolshortcuts.py. Download this script from http://GitHub.com/MooersLab/pymolshortcuts. Load the functions from this script with the following command:  cmd.do('run pymolshortcuts.py').
+aveB4resiX                                Prints the residue number and the average bfactor. Uses reduce and lambda, builtin Python functional porgramming functions. Note that you need to convert the length of the list of Bfactors from an integer to a float before division into the sum.
+aveB4resiXpy                              AveBResiX, prints the residue number and the average bfactor. Uses reduce and lambda, builtin Python functional porgramming functions. Note that you need to convert the length of the list of Bfactors from an integer.
+averageB                                  Average the B-factors by using a regular list as opposed to a stored list in PyMOL. Edit the selection as needed. 
+basePairStacking                          This code make as standard base stacking diagram with ball and stick representation.
+brokenNucleicBackbone                     Create bonds between phosphorous and O3* atoms in a low-resolution DNA structure that is 80 base pairs long. Edit the selections below, which are ranges of residue numbers and edit the molecular object name (5fur).
+bs                                        Ball and stick representation.
+bsfr                                      Ball-and-stick plus filled ring representation for ligands.
+bu                                        Generate the biological unit using the quat.py script. Edit the path to the file quat.py. You may have to download it from the PyMOL Wiki page.
+carvedIsomesh                             Carved isomesh representation of electron density.
+carvedIsosurface                          Carved isosurface representation of electron density.
+carvedVolume                              Carved volume representation of electron density.
+cav                                       Run the cav function from the pymolshortcuts.py file to show buried cavities and pockets as molecular surfaces.
+cblind                                    Apply color blind friendly to ribbon diagrams. Edit the path to the Pymol-script-repo in your computer account. See PyMOL wiki for more information about the Pymol-script-reo.
+cblindCartoon                             Color cartoon with colorblind friendly colors. Requires that the pymolshortcuts.py file is loaded. This has been applied to PDB-ID 7JU6. The protein is human RET kinase, and the drug is selpercatinib, a FDA approved drug for treating several cancers.
+centerpi                                  Center pi. Edit the atoms selected for positioning the pseudoatom.
+cmddocs                                   Print in the command history window the docstrings of all of the functions in the cmd module.
+cntccp4emaps                              Count number of *.ccp4 (electron density map) files in current directory.
+cntfiles                                  Count number of files in current directory.
+cntlogs                                   Count number of *.log files in current directory.
+cntmtzs                                   Count number of *.mtz files in current directory.
+cntpdbs                                   Count number of *.pdb files in current directory.
+cntpmls                                   Count number of *.pml files in current directory.
+cntpngs                                   Count number of *.png files in current directory.
+cntpses                                   Count number of *.pse files in current directory.
+colorh1                                   Run the colorh1 function from the pymolshortcuts.py file to color protein molecules according to the Eisenberg hydrophobicity scale, scheme 1.
+colorh2                                   Run the colorh2 function from the pymolshortcuts.py file to color protein molecules according to the Eisenberg hydrophobicity scale, scheme 2.
+coordinate                                Coordinate covalent bonds to metals and H-bonds from RNA.
+cribbon                                   Color ribbon H red, strand yellow, loop green.
+cring                                     Colored ring.
+cspheres                                  Colored spheres.
+discreteCartoonColoring                   Turn on discrete colors between secondary structure elements.
+displayFonts                              Print to the screen as labels the 21 font ids in their corresponding fonts in a grid. Each label is an object and appears in the internal gui. You can turn on and off the display of specific fonts.
+displayFontspy                            Print to the screen as labels the 21 font ids in their corresponding fonts in a grid. Each label is an object and appears in the internal gui. You can turn on and off the display of specific fonts.
+distance                                  H-bond distance between a H-bond donor and acceptor. Edit the name for the ditance, the selection criteria for atom 1, and the selection criteria for atom 2.
+doubleBond                                Valence bond.
+drawHbonds                                Display H-bonds as dashes colored black.
+drawLinks                                 Connect the alpha carbons of residue 1 with 10, 6 with 16, 7  with 17 and 8 with 18. Note that this example requires the draw_links.py [http://pldserver1.biochem.queensu.ca/~rlc/work/pymol/draw_links.py] by Robert Campbell.
+dssrBlock1                                Combining DSSR block representation with regular PyMOL cartoons after loading the dssr_block.py script by Thomas Holder.
+dssrBlock2                                DSSR block representation with fused blocks after loading the dssr_block.py script by Thomas Holder. The x3dna-dssr executable needs to be in the PATH.
+dssrBlock3                                DSSR block representation for a multi-state example after loading the dssr_block.py script by Thomas Holder. The x3dna-dssr executable needs to be in the PATH. Edit the path to Thomas Holder's block script.
+dssrBlock4                                DSSR block representation with custom coloring after loading the dssr_block.py script by Thomas Holder. The x3dna-dssr executable needs to be in the PATH.
+duplicateObject                           Duplicate object. Create an object with the first argument using the selection, which is the second argument.
+ellipcol                                  Set color of thernal ellipsoids. The PDB must have anisotopic temperature factors. See https://pymolwiki.org/index.php/Color_Values for the PyMOL colors.
+emacsjupyterSourceBlock                   Source block template in org-mode with emacs-jupyter package.
+extractPartObj                            Create a new object from part of an existing object.
+fasta                                     Print Fasta from PDB file.
+fastapy                                   Python version of the command to print the sequence from a PDB file in the fasta format.
+fetch2FoFcIsomesh                         Fetch 2FoFc map as an isomesh.
+fetch2FoFcIsosurface                      Fetch 2FoFc map as an isosurface. Edit the PDB-ID code. Use lowercase letter for the fifth character to select a single chain. Render and display a contour of this map as a chicken wire representation.
+fetch2FoFcVolume                          Fetch 2FoFc map as a volume.
+fetchCIF                                  Fetch the atomic coordinates as a cif file from the PDB.
+fetchFoFc                                 Fetch fofc map from the PDB.
+fetchPath                                 Set path for location to save fetched pdb files.
+fetchThreeMaps                            Display three electron density maps as isomesh.
+filledRing                                Filled rings in nucleic acids.
+findHbonds                                Find H-bonds around a residue.
+fog                                       Blur the background atoms.
+getCoordinates                            Get coordinates.
+getCoordinatespy                          Python version of getCoordinates snippets. Note that the python2 print statement stills works  in pml scripts.
+github                                    Print url of README.md file of the pymolsnips repository.
+grayscale                                 Apply grayscale coloring using a grayscale version of the PyMOL colors for the elements. This is a Python function. It is invoked in a script file via grayscale(). There is a corresponding gscale shortcut in pymolshortcuts.py that is invoked in a pml script by entering gsale if the functions in pymolshortcuts.py have been loaded with the run pymolshortcuts.py command.
+grayscalepy                               Apply grayscale coloring using a grayscale version of the PyMOL colors for the elements. This is a Python function. It is invoked in a script file via gscale(). There is a corresponding gscale shortcut in pymolshortcuts.py that is invoked in a pml script by entering gsale if the functions in pymolshortcuts.py have been loaded with the run pymolshortcuts.py command.
+hb                                        Creates an object of all H-bonds found by PyMOL.
+hbonddash                                 Set up H-bond dashes.
+helpDocs                                  Return the docstring for the help submodule. This command is more concise:  help help.
+hideSelection                             Turn off magenta squares on current selection.
+hidealtloc                                Hide the partially occupied atoms with the part b alternate locator.
+his31asp70                                Display the famous Asp70-His31 salt-bridge from T4 lysozyme that contributes3-5 kcal/mol to protein stability. 
+importIPythonDisplay                      Imports for using IPython to display images loaded from disk in notebook cells.
+importPyMOLandShortcuts                   Imports needed for most users of PyMOL in Jupyter. Combination of importPyMOL and importPythonDisplay.
+importPyMOLcmd                            Import the cmd class from the pymol api.
+importShortcuts                           Import for loading the functions in the pymolshortcuts.py file. These functions can be run inside cmd.do() without the trailing (). For example, cmd.do('rv').
+imports4PyMOLjupyter                      Imports needed for most uses of pymol in Jupyter. Combination of importPyMOL and importPythonDisplay.
+internalGUImode2                          Make the background of the internal gui transparent to expand viewport.
+internalGUIwidth                          Set the width of the internal gui. Set to 0 to make the internal gui vanish.
+ipymolProtein                             Demo of the use of the RPC server with a protein via ipymol. Create a kernel for python interpreter from PyMOL inside Jupyter. See the kernel snippet for an example. See the README.md file on pymolsnips GItHub website or more details https://github.com/MooersLab/pymilsnips. Start pymol in terminal with pymol -R. Select pymol.python as kernel in Juptyer. The double parentheses are required when set_view is run this way.;
+ipymolStart                               Code to start the RPC server with ipymol. Start pymol in terminal with pymol -R; select pymol.python as the kernel in juptyer. You may have to create this kernel for the Python interpreter that is inside PyMOL.
+kernel                                    A kernel.json file for runnig PyMOL python interpreter in the Jupyter notebook. This code should reside in a folder named pymol.python in the ~/Library/Jupyter/kernels.
+labelCAs                                  Label the CA atoms with the Ala333 style format.
+labelMainChain                            Label the main chain atoms with the following: resn,resi,atom name.
+labelResnResi                             Label CA atom with single-letter residue name and residue number.
+labelSS                                   Label SS.
+labelWatersHOH                            Label waters with HOH and their residue number.
+labelWatersW                              Label waters with W and their reisude number.
+ligandSelect                              Make selection of ligand atoms.
+listLigandProteinDistances                Print a list of protein--ligand distances. Code by Dan Kulp. Updated for Python3.
+listObjects                               Create a list of objects in the internal gui and print this list to the screen.
+listSettings                              Print to the screen the settings and their current parameter values. This is the more compact version.
+listSettings2                             Print to the screen the settings and their current parameter values.
+loadAmberTrajs                            The amber trajectories have to be loaded into the same object.
+loadAndAlignManyFiles1                    These are the instructions for loading and aligning multiple files. To save multiple models in a file to separate pdb files.
+loadAndAlignManyFiles2                    To align all of the loaded RNA structures in all possible combinations by their C1' carbon atoms. Yes, this construct is a list comprehension inside a list comprehension!
+loadAndAlignManyFiles3                    These are the instructions for loading and aligning multiple files.
+loadImage                                 Load image.
+loadManyFiles                             Load into PyMOL multiple files with a common file stem. The is a script by Robert Campbell that has been updated for Python3.
+loadPDBbs                                 Load PDB ball-and-stick.
+loadPDBfile                               Load a pdb file in the current directory.
+loadPDBnb                                 Load PDB nb spheres.
+loadThreeMaps                             Three electron density as Isomesh.
+lsSnips                                   List all snips by tab trigger and description.
+lsSnipsPy                                 List all snips by tab trigger and description.
+lspymolrc                                 Print list of active pymolrc files.
+lspymolrcpy                               Print list of active pymolrc files.
+molscriptRibbon                           Show cartoon in the style of Molscript ribbons.
+ms                                        Measure surface area of the selection with the msms_pymol.py script.
+nmr                                       Show all models in a nmr structure.
+nmroff                                    Hide all but first model in a nmr structure.
+nmroffpy                                  Hide all but the first model in a nmr structure.
+nmrpy                                     Show all models in a nmr structure.
+nucleicAcidBackboneTubesSticks            This code shows the cartoon backbone tube as 65% transparent. It hides the rungs of the cartoon. It shows all of the non-H atoms are sticks. The motivation is to have the cartoon highlight the backbone without dominanting the scene.
+nucleicAcidCartoon                        Settings for nucliec acid cartoon. The dark blue used for electron density maps is called `density`. The cartoon_ladder_radius should be renamed the cartoon_rung_radius. The dimensions are in Angstroms.
+nucleicAcidCartoon2Strands                Coloring two strand differently of a double helix makes it easier to for the viewer to distinguish the two strands. The set command has the syntax of setting_name [, setting_value [, selection [,state ]]] . In this case, the selection has to be global, object, object-state, or per-atom settings. It cannot be a named selection. This is a weak spot in PyMOL. Coloring two strand differently of a double helix makes it easier to for the viewer to distinguish the two strands. Many double-stranded helices have one strand in the asymmetric unit. The second strand is in the biological unit. The coordinates for the second strand are in the pdb1 file type at the PDB. The second strand is in the second state, which is equivalent to the second model in the pdb file. The strands are labeled chain A and B (via the cartoon_nucliec_acid_color setting). The bases are colored differently too (via the cartoon_ladder_color setting).
+nucleicAcidCartoonFilledRings             The code provides a cartoon of the loaded nucleic acid that has the ladder rungs replaced by filled rings that are colored by atom type. The code can be applied to any nucleic acid. It is derived from the FR shortuct in pymolshortcuts.py.
+nucleicAcidColorbySequence                This code colors the nucleotides by base seqence. It can be applied to any nucleic acid.
+nucleicAcidDumbellCartoonColorbySequence  This code colors by the nucleotides by base seqence. The backcone is shown as a flatten ribbon with rolled edges that give the dumbell effect. The code can be applied to any nucleic acid. The code is dervied from the CR and DU shortcuts.
+nucleicAcidFlatRibbonColorbySequence      This code colors the nucleotides by base seqence. It can be applied to any nucleic acid. It is dervied from the CR shortcut. The backcone is shown as a flatten ribbon.
+numResiNucleic                            Print the number of residues in a nulceic acid (all chains).
+numResiNucleicChainA                      Print the number of residues in a nulceic acid chain.
+numResiProtein                            Print the number of residues in a protein.
+numResiProteinChainA                      Print the number of residues in chain A of a protein.
+obipythonSourceBlock                      Source block template in org-mode with the ob-ipython package.
+oneBondThicknessColor                     To change stick color and radius for the bond between atom 2 and 3, use the set_bond command.
+oneLetter                                 Switch from three letter code to one-letter code for amino acids.
+optAlignRNA                               OptiAlign.py by Jason Vertree modified for aligning multiple RNA structures.
+pearl                                     The pearl effect is made with two spheres with the outer sphere being transparent.
+presetDocs                                Return the docstring for the preset submodule. The command help preset fails to return anything. The command help(pymol.preset) has the same effect as help(preset).
+printAtomNames                            Print the atom names of a residue.
+printAtomNumbers                          Print the atom name and number of a residue.
+printBfactors                             Print the bfactors of a residue.
+printBs                                   Print the B-factors of a residue.
+printBs2digits                            Print B--factors for a residue with the B-factors rounded off to two decimal places.
+printBspartB                              Print B factors of part B of a residue.
+printColorByAtomCodes                     Print the codes for color-by-atom (util.cba*) alternates.
+printCoordinates                          Print the coordinates of the atoms in a residue.
+printDoc                                  Print document string of a function.
+printDocpy                                Print document string of a function.
+printNameB4ResiX                          Print name and b-factor for a residue.
+printNamesCoordinates                     Print the atom names and coordinates of the atoms in a residue.
+printNamesCoordinates                     Print the atom names as tuples and coordinates of the atoms in a residue as a list.
+printPath                                 Print the path to the currently used PyMOL binary.
+printPathpy                               Print the path to the currently used PyMOL binary.
+printResiResnNameB4ResiX                  Print resn, resi, atom name, and b-factor. 
+printResiResnNameB4ResiXNoH               Print name and b-factor for a residue or residue range (e.g. 81:120). The noH variant.
+printVDWradii                             Print the van der Waals radii of the atoms in of a residue.
+pseudolabel                               Position label with pseudoatom.
+puttyCartoon                              Create a putty cartoon. The command may be needed if the above setting does not work. This can happen if using the presets. The command below may be needed if the above setting does not work.This can happen if using the presets. The command below may be needed if the above setting does not work. This can happen if using the presets.
+pymoldocs                                 Return to the command history window the docstrings for all of the functions in a module.
+pymoldocspy                               Return to the command history window the docstrings for all of the functions in a module.
+rdkrpcChem                                Demo of the use of the RPC server with a drug compound via the rdkit python module.
+rdkrpcProtein                             Demo of the use of the RPC server with a protein via rdkit.
+renameChain                               Rename a chain. 
+renumAtoms                                Add or substract a atom number offset.
+renumResi                                 Add or substract a residue number offset.
+ringMode                                  Set the ring mode to a value between 0  and 6 in cartoons of nucleic acids.
+rmd                                       Remove all measurement objects in the interal GUI.
+rmhb                                      Delete all H-bonds in the selection, which is all by default.
+rmwater                                   Remove waters from molecular object.
+rotate                                    Rotate a selection about and axis by a given angle.
+rv                                        Return settings in rounded format.
+rvi                                       Return settings in rounded format while running PyMOL via the RCP server ipymol in a jupyter notebook. This is a modified version of the roundview.py script.
+rvr                                       Return settings in rounded format while running PyMOL via the RCP server rdkit in a jupyter notebook. This is a modified version of the roundview.py script.
+saln                                      Save an aln flle with a timestamp.
+salnpy                                    Save an aln flle with a timestamp. Python version.
+sas                                       Show the solvent excluded surface.
+savePNG                                   Save a png file of current scene to the current directory. PyMOL writes out only png files. This file may need to be converted to a tiff file. See the png2tiff snippet for a bash script that converts all png files in a folder into tiff files. 1: png filename. 2: x-dimension in pixels. 3: y-dimension in pixels, 1600 x 1000 approximates the golden ratio. Usually want a square for multipanel figures..4: dots per inch. 5: ray tracing off, 0; ray tracing on, 1 should also consider image without ray tracing shadows. 
+saveSeppy                                 Saves multiple objects into multiple files using an optional prefix name.
+saxsEnvelope                              Display SAXS envelope. Edit to enter the name of the bead model object.
+sc111                                     Display all symmetry mates in one unit cell. Uses supercell.py in $HOME/Scripts/PyMOLscripts/. Change to your path to supercell.py.
+sc112                                     Display all symmetry mates in two unit cells along the c axis. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.
+sc113                                     Display all symmetry mates in three unit cels along c. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.
+sc114                                     Display all symmetry mates in four unit cells stacked long c-axis. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.
+sc121                                     Display all symmetry mates in two unit cells along the b axis. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.
+sc122                                     Display all symmetry mates in a 1 x 2 x 2 array of unit cells. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.
+sc131                                     Display all symmetry mates in three unit cells along b. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.
+sc133                                     Display all symmetry mates in 1 x 3 x 3 array of unit cell. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.
+sc141                                     Display all symmetry mates in four unit cells stacked long b-axis. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.
+sc144                                     Display all symmetry mates in in a 1 x 4 x 4 array. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.
+sc211                                     Display all symmetry mates in two unit cell along a. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.
+sc212                                     Display all symmetry mates in a 2 x 1 x 2 arrays of unit cells. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.
+sc221                                     Display all symmetry mates in 2 x 2 x 1 array of unit cells. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.
+sc222                                     Run supercell script to generate three cells in all directions. This script was written by Thomas Holder.
+sc233                                     Display all symmetry mates in a 2 x 3 x 3 array of unit cells. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.
+sc311                                     Display all symmetry mates three three unit cells along a. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.
+sc313                                     Display all symmetry mates in a 3 x 1 x 3 array of unit cells. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.
+sc323                                     Display all symmetry mates in a 3 x 2 x 3 array of unit cells. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.
+sc331                                     Display all symmetry mates in 3 x 3 x 1 array of unit cells. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.
+sc332                                     Display all symmetry mates in 3 x 3 x 2 array of unit cells. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.
+sc333                                     Display all symmetry mates in 3 x 3 x 3 array of unit cells. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.
+sc411                                     Display all symmetry mates in four unit cells stacked long a-axis. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.
+sc414                                     Display all symmetry mates in a 4 x 1 x 4 array. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.
+sc441                                     Display all symmetry mates in four unit cells stacked long a-axis. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.
+sc444                                     Display all symmetry mates in a 4 x 4 x4 array of unit cells. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.
+sc444                                     Display all symmetry mates in a 4 x 4 x4 array of unit cells. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.
+scaleRadiusColor                          Scale the radius and color of atoms as spheres by property in the B-value column.
+scaleRadiusColorPythonInsertpy            Python block insert for scaleRadiusColorpy.
+scaleRadiusColorpy                        Scale the radius and color of atoms as spheres by property in the B-value column.
+sccp4                                     Save electron density map flle with timestamp.
+sccp4py                                   Save electron density map flle with timestamp.
+sdae                                      Save dae flle with timestamp.
+sdaepy                                    Save dae flle with timestamp.
+selectAllBut                              Select all nitrogen atom in a selelction except from lysine.
+selectAtomsAround                         Select atoms within a radius around a ligand.
+selectChain                               Select a chain.
+selectElement                             Select atoms by element.
+selectHelices                             Select atoms by alpha helices.
+selectLoops                               Select atoms by beta loops.
+selectName                                Select atoms by name.
+selectResi                                Select residues by a range of numbers.
+selectResidues                            Select residues by name.
+selectResiduesAround                      Select residues within a radius around a ligand.
+selectStrands                             Select atoms by beta strands.
+setLigandValenceOn                        Display the bond valence of ligands only.
+setcolor                                  Set color name to a RGB code.
+setpath                                   Set additional path for PyMOL to search on startup.
+sidehChainHelper                          In cartoons, hide the backbone atoms of selected residues when showing then as sticks.
+sigDigits                                 Set number of decimals places to show in distance labels.
+sigang                                    Set angle labels to display 2 decimals places.
+sigdihedral                               Set dihedral labels to display 2 decimals places to the right of the decimal point.
+sigdist                                   Set distance labels to display 2 decimals.
+solventRadius                             Set radius of ball used to make solvent accessible surface.
+spng                                      Save png flle with timestamp.
+spngpy                                    Save png flle with timestamp.
+spse                                      Save pse flle with timestamp
+stack                                     Base-stacking figure.
+stateOne                                  Select state 1 from a model with multiple states.
+stereoDraw                                Stereo draw.
+stereoRay                                 Stereo ray.
+stereokb                                  Set keyboard shortcut by mapping F1 to stereo.
+symexp                                    The code expands the asymmetric unit. It like the generate symmetry mates command but it provides more control over the prefix name of the symmetry mates and the addition of unique segment identifiers for each symmetry mate. The usage: symexp prefix, object, (selection), cutoff, segidFlag. The cutoff is in Angstroms. The segidFlag set to 1 will add unique segids. For related functions, see SC***.
+synch                                     Wait until all current commands have been executed. A timeout ensures that that command ecentually returns.
+threeMapsIsosurface                       Display three electron density maps as isosurfaces.
+threeMapsVolume                           Three electron density as volumes. Make sure to rename map file so that the root filename differs from pdb root filename.
+timcolor                                  Run the timcolor function from the pymolshortcuts.py file to color atoms accordings to Tim Mather's biophysical coloring scheme for proteins.
+turnAboutAxis                             Turn about axis.
+undoSelection                             Undo a selection.
+unitCellEdgesColorBlack                   Color unit cell edges black. The settings for controlling the unit cell color are hard to find.
+volumeRamp                                Volume ramp.
+wallart                                   Reset hash_max from 100 to 2000 to enable the saving of 28 inches by 28 inches.
+wallartpy                                 Reset hash_max from 100 to 2000 to enable the saving of 28 inches by 28 inches.
+waterTriple                               Examples of a triple water pentagon. Zoom in on the selection. Edit by changing the residue number.
+writeCommandReference2HTML                Write the command reference to html file in the present working directory. 
+yrb                                       Run the yrb function from the pymolshortcuts.py file. 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------"""
+$0

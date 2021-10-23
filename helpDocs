@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: helpDocs
+# name: Return the docstring for the help submodule. This command is more concise:  help help.
+# group: Help
+# key: helpDocs
+# --
+help(help)
+$0

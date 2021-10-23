@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: nmroff
+# name: Hide all but first model in a nmr structure.
+# group: Jupyter
+# key: nmroff
+# --
+set all_states, off
+$0

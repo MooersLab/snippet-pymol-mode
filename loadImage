@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: loadImage
+# name: Load image.
+# group: Jupyter
+# key: loadImage
+# --
+Image(filename = PATH +"${1:5da6orient}.png", width=${2:600}, height=${3:1000}, unconfined=True);
+$0

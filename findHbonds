@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: findHbonds
+# name: Find H-bonds around a residue.
+# group: Print
+# key: findHbonds
+# --
+remove element h; distance hbonds, all, all, 3.2, mode=2;
+$0

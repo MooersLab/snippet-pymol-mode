@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: fetchCIF
+# name: Fetch the atomic coordinates as a cif file from the PDB.
+# group: FileIO
+# key: fetchCIF
+# --
+fetch ${1:3nd4}, type=cif, async=0;
+$0

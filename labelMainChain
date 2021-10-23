@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: labelMainChain
+# name: Label the main chain atoms with the following: resn,resi,atom name.
+# group: Labels
+# key: labelMainChain
+# --
+label name n+c+o+ca,"%s%s%s" % (resn,resi,name);
+$0

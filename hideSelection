@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: hideSelection
+# name: Turn off magenta squares on current selection.
+# group: Selection
+# key: hideSelection
+# --
+indicate none
+$0

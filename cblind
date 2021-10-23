@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: cblind
+# name: Apply color blind friendly to ribbon diagrams. Edit the path to the Pymol-script-repo in your computer account. See PyMOL wiki for more information about the Pymol-script-reo.
+# group: ColorScheme
+# key: cblind
+# --
+run ~/${1:Pymol-script-repo}/colorblindfriendly.py;
+as cartoon;
+color cb_red, ss H;
+color cb_yellow,ss S;
+color cb_green, ss L+;
+$0

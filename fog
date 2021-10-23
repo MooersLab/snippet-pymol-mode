@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: fog
+# name: Blur the background atoms.
+# group: MolecularRepresentation
+# key: fog
+# --
+set fog, 0;
+$0

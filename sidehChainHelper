@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: sidehChainHelper
+# name: In cartoons, hide the backbone atoms of selected residues when showing then as sticks.
+# group: MolecularRepresentation
+# key: sidehChainHelper
+# --
+set cartoon_side_chain_helper, on;
+$0

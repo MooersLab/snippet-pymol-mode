@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: internalGUIwidth
+# name: Set the width of the internal gui. Set to 0 to make the internal gui vanish.
+# group: Workshop
+# key: internalGUIwidth
+# --
+set internal_gui_width=${1:0};
+$0

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: sc212
+# name: Display all symmetry mates in a 2 x 1 x 2 arrays of unit cells. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.
+# group: UnitCellDisplay
+# key: sc212
+# --
+run $HOME/${1:Scripts/PyMOLscripts/}supercell.py;
+supercell 2, 1, 2, , ${2:orange},  ${3:supercell1}, 1;
+$0

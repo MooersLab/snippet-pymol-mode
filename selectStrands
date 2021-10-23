@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: selectStrands
+# name: Select atoms by beta strands.
+# group: Selection
+# key: selectStrands
+# --
+select ${1:strands}, ss s; 
+$0

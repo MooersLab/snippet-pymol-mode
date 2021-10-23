@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: hidealtloc
+# name: Hide the partially occupied atoms with the part b alternate locator.
+# group: AlternateLocators
+# key: hidealtloc
+# --
+select altconf, alt ${1:b}  # select B alternative locators;
+hide everything, altconf  # hide alt B locators;
+$0

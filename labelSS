@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: labelSS
+# name: Label SS.
+# group: Labels
+# key: labelSS
+# --
+alter ${1:chain A}, ss="${2:helix}";
+label (%2),"%3";
+$0

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: selectName
+# name: Select atoms by name.
+# group: Selection
+# key: selectName
+# --
+select ${1:oxygen2}, name ${2:O2};
+$0

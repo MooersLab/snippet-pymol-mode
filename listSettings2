@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: listSettings2
+# name: Print to the screen the settings and their current parameter values.
+# group: Settings
+# key: listSettings2
+# --
+list = setting.get_name_list();[print("%s => %s" % (name, setting.get_setting_text(name))) for name in list];
+$0

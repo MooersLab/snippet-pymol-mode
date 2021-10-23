@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: stereoRay
+# name: Stereo ray.
+# group: Stereo
+# key: stereoRay
+# --
+stereo; 
+set ray_shadow, off;
+ray ${1:2400,1200};
+png ${2:aaa}.png;
+$0

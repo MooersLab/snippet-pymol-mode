@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: selectAtomsAround
+# name: Select atoms within a radius around a ligand.
+# group: Selection
+# key: selectAtomsAround
+# --
+select ${1:nearby}, resn ${2:drug} around ${3:5};
+$0

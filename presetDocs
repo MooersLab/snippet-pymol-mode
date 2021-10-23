@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: presetDocs
+# name: Return the docstring for the preset submodule. The command help preset fails to return anything. The command help(pymol.preset) has the same effect as help(preset).
+# group: Help
+# key: presetDocs
+# --
+help(preset)
+$0

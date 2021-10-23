@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: nucleicAcidCartoon
+# name: Settings for nucliec acid cartoon. The dark blue used for electron density maps is called `density`. The cartoon_ladder_radius should be renamed the cartoon_rung_radius. The dimensions are in Angstroms.
+# group: NucleicAcids
+# key: nucleicAcidCartoon
+# --
+set cartoon_ladder_radius, ${2:0.2};
+set cartoon_nucleic_acid_color, ${3:red};
+# The cartoon ring modes range from 0 to 4.;
+set cartoon_ring_mode, ${4:2};
+$0

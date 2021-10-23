@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: printAtomNames
+# name: Print the atom names of a residue.
+# group: Programming
+# key: printAtomNames
+# --
+iterate (resi ${1:101}), print(name);
+$0

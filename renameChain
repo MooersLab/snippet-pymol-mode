@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: renameChain
+# name: Rename a chain. 
+# group: Programming
+# key: renameChain
+# --
+alter ${1:3fa0} and chain ${2:A}, chain=${3:"C"};
+sort;
+$0

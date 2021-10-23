@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: rmwater
+# name: Remove waters from molecular object.
+# group: MolecularRepresentation
+# key: rmwater
+# --
+remove resn HOH;
+$0

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: printBs2digits
+# name: Print B--factors for a residue with the B-factors rounded off to two decimal places.
+# group: Print
+# key: printBs2digits
+# --
+iterate (resi ${1:133}), print(name + " %.2f" % b);
+$0

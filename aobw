@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: AOBW
+# name: Run the AOBW function from the pymolshortcuts.py file to generate photorealistic effect in grayscale.
+# group: Jupyter
+# key: AOBW
+# --
+cmd.do("AOBW")
+$0

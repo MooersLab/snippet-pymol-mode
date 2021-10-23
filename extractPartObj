@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: extractPartObj
+# name: Create a new object from part of an existing object.
+# group: Selection
+# key: extractPartObj
+# --
+extract new_obj, chain A;
+$0

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: doubleBond
+# name: Valence bond.
+# group: MolecularRepresentation
+# key: doubleBond
+# --
+set valence, 1; 
+set valence_mode, 1;
+$0

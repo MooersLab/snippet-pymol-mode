@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: importPyMOLcmd
+# name: Import the cmd class from the pymol api.
+# group: Jupyter
+# key: importPyMOLcmd
+# --
+from pymol import cmd
+$0

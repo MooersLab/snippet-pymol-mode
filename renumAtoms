@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# key: renumAtoms
+# name: Add or substract a atom number offset.
+# group: Programming
+# key: renumAtoms
+# --
+alter {$1:3fa0}, ID=ID+${2:100};
+sort;
+$0
